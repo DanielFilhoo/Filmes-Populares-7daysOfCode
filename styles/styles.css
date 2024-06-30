@@ -1,0 +1,89 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #1f1f38;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilos para o título principal */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar label {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilos para o contêiner de cada filme */
+.movie {
+    display: flex;
+    background-color: #2b2b48;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.movie img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-info h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    margin-right: 5px;
+}
+
+.score {
+    margin-right: 20px;
+}
+
+.favorite {
+    margin-left: auto;
+    cursor: pointer;
+}
